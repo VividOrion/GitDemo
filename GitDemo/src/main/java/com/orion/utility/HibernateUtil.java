@@ -5,6 +5,10 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+
+
+
+//code by ninad
 public class HibernateUtil {
 	private static SessionFactory sf=null;
 	public static SessionFactory getFactory()
